@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="hellowworld">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="hellowworldWeb.war" deploy-path="/" handle="module:/resource/hellowworldWeb/hellowworldWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hellowworldConnector.rar" deploy-path="/" handle="module:/resource/hellowworldConnector/hellowworldConnector">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hellowworldEJB.jar" deploy-path="/" handle="module:/resource/hellowworldEJB/hellowworldEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="hellowworldClient.jar" deploy-path="/" handle="module:/resource/hellowworldClient/hellowworldClient">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
